@@ -16,17 +16,23 @@
   -webkit-text-size-adjust: 100%;
 }
 
+
 body {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   min-width: 100vw;
   min-height: 100vh;
   margin: 0;
 }
 
-main {
-  flex-grow: 1;
-}
-main:has(.back-link) {
-  text-align: center;
+.link {
+  padding: 20px 20px;
+  font-size: 18px;
+  font-weight: 700;
+  background: blueviolet;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  color: white;
 }
