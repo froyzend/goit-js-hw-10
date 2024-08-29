@@ -8,6 +8,21 @@
 @import url('./reset.css');
 @import url('./base.css');
 
+.nav-list {
+  display: flex;
+  gap: 25px;
+}
+
+.btnLink {
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: #7687c4;
+  text-decoration: none;
+  color: #dbd3d3;
+  margin-bottom: 50px;
+}
+
+
 /* iziToast customization */
 .iziToast-close {
   background-color: transparent !important;
